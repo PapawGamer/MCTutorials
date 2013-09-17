@@ -27,6 +27,9 @@ public void registerTiles(){ //For registering TileEntities
 }
 
 public void registerBlocks(){ //For registering Blocks
+//Limestone
+GameRegistry.registerBlock(tutorialmod.Limestone, "Limestone"); //needed for all blocks
+LanguageRegistry.addName(tutorialmod.Limestone, "Limestone Block");//In-game name
 }
 
 public void registerItems(){ //For registering Items
